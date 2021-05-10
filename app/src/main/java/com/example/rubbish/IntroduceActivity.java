@@ -29,6 +29,9 @@ public class IntroduceActivity extends AppCompatActivity
         mToolbar = findViewById(R.id.toolbar);
 
 
+
+
+
         logo_s = findViewById(R.id.logo_s);
         textContent = findViewById(R.id.textContent);
         type = getIntent().getIntExtra("name", 0);
